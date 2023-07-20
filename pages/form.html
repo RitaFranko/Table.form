@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tell us more about you</title>
+    </head>
+    <body>
+        <h1>Please fill in the form, so we can contact you and chose the best Financial Advisor:</h1>
+        <form action="https://webhook.site/361b7b5f-b23e-4b8c-afaf-e745d955e300" method="post">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <table width="700">
+                    <tr>
+                        <td>First and second name</td>
+                        <td>
+                            <input type="text" name="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>
+                            <input type="tel" name="phone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>
+                            <input type="text" name="email">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <table width="1520">
+                    <tr>
+                        <td>Age</td>
+                        <td>
+                            <input type="number" name="age">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
+                            <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Your goal</td>
+                        <td>
+                            <textarea name="comment" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Additional preferences</legend>
+                <table width="700">
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="pref1" value="fa">Financial Advisor
+                            <input type="checkbox" name="pref2" value="no fa">no Financial Advisor
+                            <input type="checkbox" name="pref3" value="calls">Phone Calls
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="pref4" value="wa">Keep in touch via WA
+                            <input type="checkbox" name="pref5" value="stocks">Stocks
+                            <input type="checkbox" name="pref6" value="forex">Forex
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="pref7" value="crypto">Crypto
+                            <input type="checkbox" name="pref8" value="eu">EU market
+                            <input type="checkbox" name="pref9" value="usa">American market
+                        </td>
+                    </tr>
+                </table>
+            </fieldset> <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </form>
+        <p>
+            <a href="../index.html">About us</a> <br>
+            <a href="table.html">Levels to upgrade</a>
+        </p>
+    </body>
+</html>
